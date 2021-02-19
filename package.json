@@ -1,0 +1,15 @@
+{
+  "name": "cryptotest",
+  "version": "0.0.1",
+  "description": "Sign and Verify JWT Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run teste"
+  },
+  "author": "jow",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^9.1.0",
+    "node-jose": "^2.0.0"
+  }
+}
