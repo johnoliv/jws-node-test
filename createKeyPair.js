@@ -1,5 +1,5 @@
 /**
- * Gerar um par de chaves do tipo RSA 4096 bits
+ * Gerar um par de chaves do tipo RSA 16384 bits (ou 2048 bytes)
  * - Para isso vamos utilizar um biblioteca padrao do node (crypto)
 */
 const fs = require('fs');
