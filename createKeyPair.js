@@ -6,7 +6,7 @@ const fs = require('fs');
 const { generateKeyPairSync } = require('crypto');
 
 const { publicKey, privateKey } = generateKeyPairSync('rsa', {
-  modulusLength: 4096,
+  modulusLength: 16384,
   publicKeyEncoding: {
     type: 'spki', // recommended to be 'spki' by the Node.js docs
     format: 'pem' // retornara um binario
